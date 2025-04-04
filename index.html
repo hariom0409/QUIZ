@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GK & Reasoning Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="theme-toggle">
+    <label>
+      🌞 <input type="checkbox" id="darkModeToggle"> 🌙
+    </label>
+  </div>
+
+  <div class="quiz-container">
+    <h1>🧠 GK & Reasoning Quiz</h1>
+    <div id="timer" class="timer">Time: 30s</div>
+    <div id="question" class="question">Loading...</div>
+    <div id="options" class="options"></div>
+    <div id="explanation" class="explanation"></div>
+    <div class="navigation">
+      <button onclick="prevQuestion()">⬅ Back</button>
+      <button onclick="nextQuestion()">Next ➡</button>
+    </div>
+    <div id="result" class="result"></div>
+    <div class="restart">
+      <button onclick="restartQuiz()">🔄 Restart Quiz</button>
+    </div>
+  </div>
+
+  <footer class="credit">Powered by <strong><a href="https://hariompandey.in" target="_blank">Hariom Pandey</a></strong></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
